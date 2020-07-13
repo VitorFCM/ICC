@@ -4,7 +4,7 @@ main.o : main.c
 principais.o : principais.c
 	gcc -o principais.o -c principais.c
 
-funcoes.o : auxiliares.c
+auxiliares.o : auxiliares.c
 	gcc -o auxiliares.o -c auxiliares.c
 
 main : main.o principais.o auxiliares.o
